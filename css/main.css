@@ -1,0 +1,62 @@
+
+.app{
+    display:flex;
+    flex-direction: column;
+    background-color: #e6f3ff;
+    padding: 12%;
+}
+.containt{
+    display: flex;
+    align-items: center;
+}
+.home > img{
+    object-fit: contain;
+    height: 320px;
+}
+.purple{
+    font-style: italic;
+    color:blueviolet
+}
+.containt > p > strong{
+    color:brown;
+}
+.price__list > p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid black;
+}
+th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  .footer{
+  
+        text-align: center;
+        font-family: Times New Roman;
+        font-size: 10px;
+        padding: 3px;
+        background-color: Orange;
+        color: Black;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+ 
+  }
+  .home{
+      display: flex;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .home{
+
+        display: flex;
+        flex-direction: column !important;
+    }
+  }
